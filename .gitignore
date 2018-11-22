@@ -1,0 +1,8 @@
+# web-ext output
+web-ext-artifacts/
+
+# vim swap files
+*.swp
+
+# OS X junk
+.DS_Store

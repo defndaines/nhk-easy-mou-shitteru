@@ -1,0 +1,14 @@
+{ "manifest_version": 2
+, "name": "NHK Easy Language Helper"
+, "version": "1.0"
+
+, "description" : "When viewing articles at NHK News Web Easy, remove furigana from kanji the user already knows."
+
+, "icons": { "48": "icons/shi-48.png" }
+
+, "content_scripts":
+  [ { "matches": [ "https://www3.nhk.or.jp/news/easy/*" ]
+    , "js": [ "nhk-remover.js" ]
+    }
+  ]
+}
